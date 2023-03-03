@@ -6,8 +6,8 @@ python3 src/main.py \
 --model_name=cvae_model \
 --postfix=${filename} \
 --alg_name=cvae_shape \
---data_path="$DATASETS/mandible/train117" \
---data_path_test="$DATASETS/mandible/test117/pkls" \
+--data_path="C:\Users\ateghbal.stu\git\prob-shape-completion\data/mandible/train117" \
+--data_path_test="C:\Users\ateghbal.stu\git\prob-shape-completion\data/mandible/test117/pkls" \
 --output_dir="$RESULTS_PATH" \
 --batch_size=2 \
 --batch_size_acml=1 \
